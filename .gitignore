@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 虚拟环境
+.venv/
+venv/
+
+# 独立的第三方仓库克隆（不是本项目内容）
+dsh-market/
+
+# DSH 运行时产物（只保留项目技能）
+.dsh/*
+!.dsh/skills/
+.dsh-backup/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
